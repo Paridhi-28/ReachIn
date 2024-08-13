@@ -1,0 +1,13 @@
+.header-appbar {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.header-toolbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-weight: bold;
+}

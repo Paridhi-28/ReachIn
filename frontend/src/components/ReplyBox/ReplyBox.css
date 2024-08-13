@@ -1,0 +1,27 @@
+.replybox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.replybox-textfield {
+    width: 100%;
+}
+
+.replybox-button {
+    align-self: flex-end;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-transform: none;
+}
+
+.replybox-button:hover {
+    background-color: #0056b3;
+}
